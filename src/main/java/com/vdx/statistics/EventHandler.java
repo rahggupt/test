@@ -23,7 +23,6 @@ public class EventHandler {
 
     public int findMean(){
         synchronized (queue) {
-            System.out.println(queue.poll());
             return (int) queue.stream().mapToInt(event -> event.getValue()).average().getAsDouble();
         }
     }

@@ -22,7 +22,6 @@ public class StatisticsHandler implements Statistics{
 
     @Override
     public float mean() {
-        System.out.println("finding mean");
         return handler.findMean();
     }
 
