@@ -1,1 +1,2 @@
 # test
+RUN VdxMain.java
